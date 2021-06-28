@@ -91,7 +91,8 @@ body{
     position: absolute; 
     /* bottom: 50px; */
     bottom: -665px;
-    width: 100%;
+    width: 20%;
+    height:auto;
 
     text-align: center;
     transition: all 0.2s ease-in; 
@@ -100,5 +101,5 @@ body{
 .startmenu img{
     border-radius: 8px;
     height:auto;
-    width: 48%;
+    width: 100%;
 }
