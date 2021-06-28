@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background: url("bg.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskbar{
+    background-color: #042375bd;
+    border-top: 0.01px solid  #072d97;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.winicon{height: 20px;
+    width: 1.3rem;
+    margin-right: 15px;
+    margin-top: 3px;
+
+}
+.winicon  img{
+    height: 100%;
+    width: 100%;
+    padding: 2px;
+    transition: 0.2s ease-in-out;
+
+
+
+}
+.winicon img:hover{
+    background-color: #88a7fd;
+    border-radius: 25%;
+}
+.cortana{height: 20px;
+    width: 1.5rem;
+    margin-right: 15px;
+    margin-top: 2px;
+
+
+}
+.cortana img
+{
+    height: 23px;
+    width: 100%;
+    padding: 2px;
+    transition: 0.2s ease-in-out;
+
+}
+.cortana img:hover{
+    background-color: #88a7fd;
+    border-radius: 50%;
+    
+}
+.tray{height: 20px;
+    width: 1.1rem;
+    margin-right: 15px;
+    margin-top: 3px;
+    position: absolute;
+    padding: 2px;
+    margin-right: 5px;
+    right: 20vw;
+
+
+}
+ .time{
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    font-size: smaller;
+    width:min-content;
+    height:auto;
+}
+.tray img{ height: 18px;
+    width: 100%;
+    padding: 3px;
+    margin-right: 15px;
+    transition: 0.2s ease-in-out;
+
+}
+.tray img:hover{
+    background-color: rgb(255,255,255,0.2);
+    border-radius: 30%;
+}
+
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -665px;
+    width: 100%;
+
+    text-align: center;
+    transition: all 0.2s ease-in; 
+}
+
+.startmenu img{
+    border-radius: 8px;
+    height:auto;
+    width: 40%;
+}
+
+.hicortana{
+    position: absolute; 
+    bottom: -800px;
+    width: 100%;
+
+    text-align: center;
+    transition: all 0.2s ease-in; 
+}
+.hicortana img{  border-radius: 8px;
+    height:auto;
+    width: 20%;
+
+}
