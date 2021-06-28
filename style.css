@@ -99,6 +99,7 @@ body{
 
 .startmenu img{
     border-radius: 8px;
-    height:auto;
-    width: 45%;
+   
+    width: 50%;
+     height:auto;
 }
