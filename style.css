@@ -92,7 +92,6 @@ body{
     /* bottom: 50px; */
     bottom: -665px;
     width: 100%;
-    height:auto;
 
     text-align: center;
     transition: all 0.2s ease-in; 
