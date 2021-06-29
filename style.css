@@ -104,6 +104,8 @@ body{
     /* bottom: 50px; */
     bottom: -665px;
     width: 100%;
+    min-width:900px;
+    height:auto;
 
     text-align: center;
     transition: all 0.2s ease-in; 
@@ -119,6 +121,8 @@ body{
     position: absolute; 
     bottom: -800px;
     width: 100%;
+     min-width:300px;
+    height:auto;
 
     text-align: center;
     transition: all 0.2s ease-in; 
