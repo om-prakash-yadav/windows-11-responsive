@@ -104,7 +104,6 @@ body{
     /* bottom: 50px; */
     bottom: -665px;
     width: 100%;
-    min-width:700px;
 
     text-align: center;
     transition: all 0.2s ease-in; 
@@ -112,8 +111,8 @@ body{
 
 .startmenu img{
     border-radius: 8px;
-  
-    width: 45%;
+    height:auto;
+    width: 40%;
 }
 
 .hicortana{
