@@ -114,17 +114,12 @@ body{
     border-radius: 8px;
   
     width: 45%;
-    
-      height:auto;
 }
 
 .hicortana{
     position: absolute; 
     bottom: -800px;
     width: 100%;
-    min-width:700px;
-  
-    height:auto;
 
     text-align: center;
     transition: all 0.2s ease-in; 
@@ -132,6 +127,5 @@ body{
 .hicortana img{  border-radius: 8px;
     height:auto;
     width: 20%;
-       min-width:900px;
 
 }
